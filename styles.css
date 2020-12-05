@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(1, 53, 1);
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+
+.head-img{
+    content: "";
+    background: url(resources/dahlias.jpg) fixed center/cover;
+    width: 100vw;
+    height: 40vh;
+    /* background-position: center;
+    background-size: cover; */
+}
+
+header{
+}
