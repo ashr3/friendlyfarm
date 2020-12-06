@@ -15,7 +15,7 @@ body{
 
 /* HEADER STYLING */
 
-.head-img{
+.head-img {
     background: url(resources/dahlias.jpg) no-repeat fixed;
     width: 100vw;
     height: 35vh;
@@ -25,43 +25,82 @@ body{
 
 h1{
     font-size: 3.5rem;
-    letter-spacing: .05em;
+    /* letter-spacing: .05em; */
     font-family: 'Dancing Script', cursive;
     padding-bottom: .15em;
 }
 
 header{
-    margin: 0 1em 1em;
+    margin: 2em 1em;
 }
 
 header p{
     font-style: italic;
 }
 
-header .logo{
-    width: 25vw;
-    height: 10vh;
-    margin-top: .5em;
-    filter: grayscale();
-    
+
+nav{
+    width: 80vw;
+    padding: 0 0 0 20vw;
+    margin: 1em 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
+
+nav a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    border-top: 1px solid rgb(24, 23, 23);
+    border-bottom: 1px solid rgb(24, 23, 23);
+    padding: .25em .1em .1em;
+}
+
 
 /* CONTENT STYLING */
 
+.featured{
+    width: 100vw;
+    margin-top: 5em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured h3{
+    font-size: 1.5em;
+    color: rgb(24, 23, 23);
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: .15em;
+}
+
+.featured a{
+    text-decoration: none;
+    margin-top: 1em;
+    text-transform: uppercase;
+    color: rgb(24, 23, 23);
+    border: 1px solid black;
+    padding: .5em .75em;
+}
+
 .post{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     margin: 1em;
     padding-bottom: .5em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(24, 23, 23);
 }
 
 .post img{
-    width: 90vw;
-    height: 30vh;
-    border: 2px solid thistle;
+    width: 337.5px;
+    height: 244px;
+    border: 2px solid gray;
 }
 
 .post h2{
-    text-align: left;
     padding-left: .8em;
     padding-top: .5em;
 }
@@ -69,6 +108,11 @@ header .logo{
 .post p{
     text-align: left;
     padding: 0 1.5em;
+    width: 330px;
 }
 
-/* NAV STYLING */
+/* FOOTER STYLING */
+
+footer{
+    width: 100vw;
+}
