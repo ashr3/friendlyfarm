@@ -5,20 +5,70 @@
 }
 
 body{
-    color: rgb(1, 53, 1);
-    background-color: whitesmoke;
+    color: rgb(25, 27, 25);
+    background-color: rgb(247, 214, 247);
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
     text-align: center;
+    font-size: 10px;
+    font-family: 'Castoro', serif;
 }
 
+/* HEADER STYLING */
 
 .head-img{
-    content: "";
-    background: url(resources/dahlias.jpg) fixed center/cover;
+    background: url(resources/dahlias.jpg) no-repeat fixed;
     width: 100vw;
-    height: 40vh;
-    /* background-position: center;
-    background-size: cover; */
+    height: 35vh;
+    background-position: top center;
+    background-size: 100vh;
+}
+
+h1{
+    font-size: 3.5rem;
+    letter-spacing: .05em;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: .15em;
 }
 
 header{
+    margin: 0 1em 1em;
 }
+
+header p{
+    font-style: italic;
+}
+
+header .logo{
+    width: 25vw;
+    height: 10vh;
+    margin-top: .5em;
+    filter: grayscale();
+    
+}
+
+/* CONTENT STYLING */
+
+.post{
+    margin: 1em;
+    padding-bottom: .5em;
+    border-bottom: 1px solid gray;
+}
+
+.post img{
+    width: 90vw;
+    height: 30vh;
+    border: 2px solid thistle;
+}
+
+.post h2{
+    text-align: left;
+    padding-left: .8em;
+    padding-top: .5em;
+}
+
+.post p{
+    text-align: left;
+    padding: 0 1.5em;
+}
+
+/* NAV STYLING */
