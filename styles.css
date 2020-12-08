@@ -17,7 +17,7 @@ body{
 
 .head-img {
     background: url(resources/dahlias.jpg) no-repeat fixed;
-    width: 100vw;
+    width: 100%;
     height: 35vh;
     background-position: top center;
     background-size: 100vh;
@@ -56,6 +56,56 @@ nav a{
     padding: .25em .1em .1em;
 }
 
+/* SHOP REEL STYLING */
+
+.shop{
+    width: 100vw;
+    margin: 3em 0 1em;
+    padding: 0;
+}
+
+.shop h3{
+    font-size: 1.5rem;
+    color: rgb(24, 23, 23);
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: .15em;
+    margin-bottom: .5em;
+}
+
+.shop-reel{
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-decoration: none;
+    width: 75px;
+    font-size: .5rem;
+    color: rgb(24, 23, 23);
+    border-top: 1px solid rgb(24, 23, 23);
+    border-bottom: 1px solid rgb(24, 23, 23);
+    padding: .5em 0 .25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper img{
+    width: 125px;
+    height: 85px;
+    margin: 0;
+}
+
+
 
 /* CONTENT STYLING */
 
@@ -77,11 +127,9 @@ nav a{
 
 .featured a{
     text-decoration: none;
-    margin-top: 1em;
-    text-transform: uppercase;
-    color: rgb(24, 23, 23);
-    border: 1px solid black;
-    padding: .5em .75em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(53, 52, 52);
 }
 
 .post{
@@ -110,6 +158,8 @@ nav a{
     padding: 0 1.5em;
     width: 330px;
 }
+
+
 
 /* FOOTER STYLING */
 
